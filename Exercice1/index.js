@@ -12,5 +12,5 @@ function pairNumbers(min, max) {
 
 export default pairNumbers;
 
-console.log(paiNumbers(1, 10));
+console.log(pairNumbers(1, 10));
 

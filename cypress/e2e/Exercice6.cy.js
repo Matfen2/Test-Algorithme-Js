@@ -1,6 +1,6 @@
 describe('Validations Exercice 6: ', () => {
     beforeEach(() => {
-        cy.visit("/Exercice6");
+        cy.visit("http://127.0.0.1:5500/Exercice6/");
     })
     describe('Exercice 6 Validation', () => {
         it('Returns 8 on calculate 5 + 3', () => {

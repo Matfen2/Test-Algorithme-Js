@@ -1,4 +1,7 @@
 function calculate(a, b, operator) {
+  a = Number(a);
+  b = Number(b);
+
   switch (operator) {
     case '+':
       return a + b;
